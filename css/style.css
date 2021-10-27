@@ -1,0 +1,34 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: url(../img/temp-bg.jpg);
+}
+
+h1 {
+    font-size: 220%;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 90%;
+    line-height: 160%;
+}
+
+.mighty-container {
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    background-color: #eee;
+}
